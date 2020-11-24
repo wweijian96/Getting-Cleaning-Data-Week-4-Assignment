@@ -1,4 +1,4 @@
-# Getting-Cleaning-Data-Week-4-Assignment
-Submission for Week 4 assignment
+## Getting-Cleaning-Data-Week-4-Assignment
+# Description for "run analysis.R" code
 
 abc
