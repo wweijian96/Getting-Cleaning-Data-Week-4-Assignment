@@ -8,11 +8,11 @@ Hello! This README.md contains the description for the code I used to obtain the
 **Steps 2 & 3** read in the text files for each set (training or test) and combines the text files into one big dataset.
 
 **Step 4** accomplishes several things. First, we must understand that the rows in features.txt (i.e. the variables) correspond to the columns in the big datasets obtained above. 
-By knowing this, we then understand how to extract the relevant columns from the big datasets. 
+By knowing this, we then understand how to extract the relevant columns from the big datasets.  
 To begin, the columns containing the required variables (mean and standard deviation) are filtered from the features dataset using _grep()_. Note that _grep(mean())_ also subsets 
 variables containing meanFreq(), so these were removed subsequently via an additional subset step. These were saved as lists and concatenated, then unlisted and 3 was added to 
 each value (this is because in the big dataset, there are 3 columns before the variable columns - data type, subject ID and activity type). The data was then ordered to facilitate
-downstream formatting.
+downstream formatting.  
 Additionally, the variable names were subsetted in a similar fashion and saved as characters.
 
 **Step 5** if where we get our big, combined dataset. The datasets from steps 2 & 3 are first combined and subsetted according to the columns that we require (that's where the 
